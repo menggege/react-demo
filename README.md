@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## React-router和React-router-dom
 
 ### React-router和React-router-dom的选择
@@ -62,3 +63,6 @@ connect方法做的事情是将state和dispatch绑定到Connect组件的参数�
 
 ### Provider
 Provider是顶层组件的作用，将store作为上下文提供给全局共享，而Connect组件是局部组件，将某个react组件包装起来，传递指定的state和props给该组件访问。
+=======
+# react-demo
+>>>>>>> 223bf11eaabc71cae7289cdebd26c865323b542d
