@@ -2,15 +2,13 @@
 
 ### 1.React-router和React-router-dom的选择
   很多刚使用react在接触到react-router、react-router-dom的概念的时候会很模糊，二者到底有什么区别？
-  1. React-router 
-     React-router提供了一些router的核心api，包括Router, Route, Switch等，但是它没有提供dom操作进行跳转的api。
-  2. React-router-dom 
-     React-router-dom提供了BrowserRouter, Route, Link等api,我们可以通过dom的事件控制路由。例如点击一个按钮进行跳转，大多数情况下我们是这种情况，所以在开发过程中，我们更多是使用React-router-dom。
+  1. React-router提供了一些router的核心api，包括Router, Route, Switch等，但是它没有提供dom操作进行跳转的api。
+  2. React-router-dom提供了BrowserRouter, Route, Link等api,我们可以通过dom的事件控制路由。例如点击一个按钮进行跳转，大多数情况下我们是这种情况，所以在开发过程中，我们更多是使用React-router-dom。
 
 ### 2.React-router-dom的核心用法
 HashRouter和BrowserRouter，它们两个是路由的基本，我们需要将它们包裹在最外层，我们只要选择其一就可以了，它们的不同：
 1. HashRouter它是通过hash值来对路由进行控制
-2. BrowserRouter很多情况下我们并不新闻路径带#，这时我们就需要用到BrowserRouter
+2. 很多情况下我们并不新闻路径带#，这时我们就需要用到BrowserRouter
 
 ### 3.Switch
 Switch常常会用来包裹Route，它里面不能放其他元素，用来只显示一个路由。
