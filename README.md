@@ -2,9 +2,9 @@
 
 ### 1.React-router和React-router-dom的选择
   很多刚使用react在接触到react-router、react-router-dom的概念的时候会很模糊，二者到底有什么区别？
-  1、React-router
+  1. React-router 
      React-router提供了一些router的核心api，包括Router, Route, Switch等，但是它没有提供dom操作进行跳转的api。
-  2、React-router-dom
+  2. React-router-dom 
      React-router-dom提供了BrowserRouter, Route, Link等api,我们可以通过dom的事件控制路由。例如点击一个按钮进行跳转，大多数情况下我们是这种情况，所以在开发过程中，我们更多是使用React-router-dom。
 
 ### 2.React-router-dom的核心用法
