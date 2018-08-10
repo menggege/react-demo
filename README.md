@@ -51,7 +51,7 @@ Redux并不是专为React开发的，它可以应用在任何框架上。针对R
  reducer 就是一个纯函数，接收旧的 state 和 action，返回新的 state。
 
  ### 3.Store
- 在前面的章节中，我们学会了使用 action 来描述“发生了什么”，和使用 reducers 来根据 action 更新 state 的用法。Store 就是把它们联系到一起的对象  
+ 我们学会了使用 action 来描述“发生了什么”，和使用 reducers 来根据 action 更新 state 的用法。Store 就是把它们联系到一起的对象  
  再次强调一下 Redux 应用只有一个单一的 store，当需要拆分数据处理逻辑时，你应该使用 reducer 组合 而不是创建多个 store
 
 ### 4.connect
